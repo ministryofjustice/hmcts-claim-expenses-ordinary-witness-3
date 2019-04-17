@@ -1,12 +1,12 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel costs to and from court\r\n* accommodation, if you stayed overnight\r\n* meals and snacks\r\n* financial loss (e.g. loss of earnings or childcare costs)",
+  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel\r\n* accommodation\r\n* meals and snacks\r\n* other expenses - for example, loss of earnings or childcare costs",
   "components": [
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "We'll be able to process your claim quicker if you provide receipts. You can photograph and attach these with this claim."
+      "html": "We'll be able to process your claim quicker if you include receipts with your submission."
     }
   ],
   "extraComponents": [

@@ -5,13 +5,13 @@
     {
       "_id": "page.case-details--text.auto_name__2--2",
       "_type": "text",
-      "label": "Court you were at",
+      "label": "Court name",
       "name": "court_name"
     },
     {
       "_id": "page.case-details--text.auto_name__2",
       "_type": "text",
-      "hint": "The case name is also known as the defendant's name",
+      "hint": "The case name is also the defendant's name - for example, R.v. (Regina versus) the defendant",
       "label": "Case name",
       "name": "case_name"
     },
@@ -22,6 +22,6 @@
       "name": "case_number"
     }
   ],
-  "heading": "About the case",
+  "heading": "Case details",
   "url": "case-details"
 }

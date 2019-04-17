@@ -12,7 +12,7 @@
           "$option": true,
           "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__2",
           "_type": "checkbox",
-          "label": "Travel costs",
+          "label": "Travel",
           "name": "travel_costs"
         },
         {
@@ -36,12 +36,15 @@
         {
           "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__2--2",
           "_type": "checkbox",
-          "label": "Financial loss",
+          "hint": "For example, loss of earnings or childcare costs",
+          "label": "Other expenses",
           "name": "financial_loss"
         }
       ],
       "legend": "What are you making a claim for?"
     }
   ],
+  "enableSteps": true,
+  "steps": [],
   "url": "what-are-you-making-a-claim-for"
 }
