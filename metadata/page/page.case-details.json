@@ -1,0 +1,20 @@
+{
+  "_id": "page.case-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.case-details--text.auto_name__2",
+      "_type": "text",
+      "label": "Case name",
+      "name": "case_name"
+    },
+    {
+      "_id": "page.case-details--number.auto_name__2",
+      "_type": "number",
+      "label": "Case number",
+      "name": "case_number"
+    }
+  ],
+  "heading": "Case details",
+  "url": "case-details"
+}

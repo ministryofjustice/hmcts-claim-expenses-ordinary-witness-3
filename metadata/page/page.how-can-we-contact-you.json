@@ -1,0 +1,31 @@
+{
+  "_id": "page.how-can-we-contact-you",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.how-can-we-contact-you--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.how-can-we-contact-you--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "Mobile (call or text)",
+          "name": "by_phone"
+        },
+        {
+          "_id": "page.how-can-we-contact-you--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "Email",
+          "name": "by_email"
+        }
+      ],
+      "legend": "How can we contact you about your claim?"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.your-telephone-number",
+    "page.your-email-address"
+  ],
+  "url": "how-can-we-contact-you"
+}
