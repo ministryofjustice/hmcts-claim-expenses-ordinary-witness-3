@@ -9,11 +9,19 @@
       "html": "We'll be able to process your claim quicker if you provide receipts. You can photograph and attach these with this claim."
     }
   ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
+    }
+  ],
   "heading": "Make a claim for expenses as a defence witness",
   "steps": [
     "page.your-details",
     "page.how-can-we-contact-you",
-    "page.case-details"
+    "page.case-details",
+    "page.what-are-you-making-a-claim-for"
   ],
   "url": "/"
 }

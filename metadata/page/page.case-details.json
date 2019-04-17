@@ -3,8 +3,15 @@
   "_type": "page.form",
   "components": [
     {
+      "_id": "page.case-details--text.auto_name__2--2",
+      "_type": "text",
+      "label": "Court you were at",
+      "name": "court_name"
+    },
+    {
       "_id": "page.case-details--text.auto_name__2",
       "_type": "text",
+      "hint": "The case name is also known as the defendant's name",
       "label": "Case name",
       "name": "case_name"
     },
@@ -15,6 +22,6 @@
       "name": "case_number"
     }
   ],
-  "heading": "Case details",
+  "heading": "About the case",
   "url": "case-details"
 }

@@ -1,0 +1,47 @@
+{
+  "_id": "page.what-are-you-making-a-claim-for",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.what-are-you-making-a-claim-for--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "Travel costs",
+          "name": "travel_costs"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "Meals and snacks",
+          "name": "meals_snacks"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "Accommodation",
+          "name": "accommodation"
+        },
+        {
+          "_id": "page.what-are-you-making-a-claim-for--checkboxes--checkbox.auto_name__2--2",
+          "_type": "checkbox",
+          "label": "Financial loss",
+          "name": "financial_loss"
+        }
+      ],
+      "legend": "What are you making a claim for?"
+    }
+  ],
+  "url": "what-are-you-making-a-claim-for"
+}
