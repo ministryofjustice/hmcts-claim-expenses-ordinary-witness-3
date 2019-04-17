@@ -45,6 +45,8 @@
     }
   ],
   "enableSteps": true,
-  "steps": [],
+  "steps": [
+    "page.transport-you-used"
+  ],
   "url": "what-are-you-making-a-claim-for"
 }
