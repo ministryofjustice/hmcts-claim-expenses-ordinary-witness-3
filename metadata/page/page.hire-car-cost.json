@@ -1,0 +1,39 @@
+{
+  "_id": "page.hire-car-cost",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.hire-car-cost--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.hire-car-cost--fieldset--number.auto_name__8",
+          "_type": "number",
+          "hint": "For example, £55.50",
+          "label": "**Cost per day**",
+          "name": "auto_name__8"
+        },
+        {
+          "_id": "page.hire-car-cost--fieldset--fileupload.auto_name__9",
+          "_type": "fileupload",
+          "label": "**Include receipt**",
+          "name": "auto_name__9",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__3",
+      "repeatable": true,
+      "repeatableAdd": "Add another expense",
+      "repeatableDelete": "Remove expense",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "How much did it cost to hire a car?",
+  "show": {
+    "identifier": "hire_car",
+    "operator": "defined"
+  },
+  "url": "hire-car-cost"
+}

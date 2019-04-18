@@ -1,0 +1,39 @@
+{
+  "_id": "page.accommodation-costs",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.accommodation-costs--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.accommodation-costs--fieldset--number.auto_name__12",
+          "_type": "number",
+          "hint": "For example, £30.50",
+          "label": "**Cost per night**",
+          "name": "auto_name__12"
+        },
+        {
+          "_id": "page.accommodation-costs--fieldset--fileupload.auto_name__13",
+          "_type": "fileupload",
+          "label": "**Include receipt**",
+          "name": "auto_name__13",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__5",
+      "repeatable": true,
+      "repeatableAdd": "Add another expense",
+      "repeatableDelete": "Remove expense",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Accommodation",
+  "show": {
+    "identifier": "accommodation",
+    "operator": "defined"
+  },
+  "url": "accommodation-costs"
+}

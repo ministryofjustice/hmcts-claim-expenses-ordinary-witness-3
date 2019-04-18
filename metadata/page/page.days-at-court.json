@@ -1,0 +1,13 @@
+{
+  "_id": "page.days-at-court",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.days-at-court--number.auto_name__2",
+      "_type": "number",
+      "label": "How many days were you at court?",
+      "name": "auto_name__2"
+    }
+  ],
+  "url": "days-at-court"
+}

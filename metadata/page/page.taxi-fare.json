@@ -1,0 +1,39 @@
+{
+  "_id": "page.taxi-fare",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.taxi-fare--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.taxi-fare--fieldset--number.auto_name__6",
+          "_type": "number",
+          "hint": "For example, £22.50",
+          "label": "**Cost per day**",
+          "name": "auto_name__6"
+        },
+        {
+          "_id": "page.taxi-fare--fieldset--fileupload.auto_name__7",
+          "_type": "fileupload",
+          "label": "**Include receipt**",
+          "name": "auto_name__7",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__2",
+      "repeatable": true,
+      "repeatableAdd": "Add another fare",
+      "repeatableDelete": "Remove fare",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "How much was your taxi fare?",
+  "show": {
+    "identifier": "taxi",
+    "operator": "defined"
+  },
+  "url": "taxi-fare"
+}

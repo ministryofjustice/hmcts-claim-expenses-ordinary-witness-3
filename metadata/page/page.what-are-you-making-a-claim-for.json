@@ -46,7 +46,10 @@
   ],
   "enableSteps": true,
   "steps": [
-    "page.transport-you-used"
+    "page.transport-you-used",
+    "page.meals-and-snacks",
+    "page.accommodation-costs",
+    "page.loss-of-earnings"
   ],
   "url": "what-are-you-making-a-claim-for"
 }

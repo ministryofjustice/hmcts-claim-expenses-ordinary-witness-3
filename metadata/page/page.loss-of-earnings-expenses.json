@@ -1,0 +1,37 @@
+{
+  "_id": "page.loss-of-earnings-expenses",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.loss-of-earnings-expenses--number.auto_name__16",
+      "_type": "number",
+      "label": "**How many days are you claiming for?**",
+      "name": "auto_name__16",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "_id": "page.loss-of-earnings-expenses--number.auto_name__17",
+      "_type": "number",
+      "label": "**How many half days are you claiming for?**",
+      "name": "auto_name__17",
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "_id": "page.loss-of-earnings-expenses--number.auto_name__18",
+      "_type": "number",
+      "hint": "For example, if you are self-employed and paid by the day",
+      "label": "**How much are you claiming per day?**",
+      "name": "auto_name__18"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Loss of earnings",
+  "steps": [
+    "page.employer-details"
+  ],
+  "url": "loss-of-earnings-expenses"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "page.miles-per-day",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.miles-per-day--number.auto_name__5",
+      "_type": "number",
+      "hint": "Enter a number to the nearest mile",
+      "label": "How many miles did you travel per day using your own transport?",
+      "name": "auto_name__5",
+      "show": {
+        "identifier": "my_own_transport",
+        "operator": "defined"
+      }
+    }
+  ],
+  "show": {
+    "identifier": "my_own_transport",
+    "operator": "defined"
+  },
+  "url": "miles-per-day"
+}

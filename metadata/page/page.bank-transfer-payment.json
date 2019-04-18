@@ -1,0 +1,34 @@
+{
+  "_id": "page.bank-transfer-payment",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.bank-transfer-payment--number.auto_name__31",
+      "_type": "number",
+      "label": "**Card number**",
+      "name": "auto_name__31"
+    },
+    {
+      "_id": "page.bank-transfer-payment--number.auto_name__32",
+      "_type": "number",
+      "hint": "For example, 10/20",
+      "label": "**Expiry date**",
+      "name": "auto_name__32"
+    },
+    {
+      "_id": "page.bank-transfer-payment--text.auto_name__33",
+      "_type": "text",
+      "label": "**Name on card**",
+      "name": "auto_name__33"
+    },
+    {
+      "_id": "page.bank-transfer-payment--number.auto_name__34",
+      "_type": "number",
+      "hint": "The last 3 digits on the back of your card",
+      "label": "**Card security code**",
+      "name": "auto_name__34"
+    }
+  ],
+  "heading": "Enter card details",
+  "url": "bank-transfer-payment"
+}

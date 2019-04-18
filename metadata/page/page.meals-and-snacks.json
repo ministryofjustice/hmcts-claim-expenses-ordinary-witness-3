@@ -1,0 +1,38 @@
+{
+  "_id": "page.meals-and-snacks",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.meals-and-snacks--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.meals-and-snacks--fieldset--number.auto_name__10",
+          "_type": "number",
+          "label": "**Cost per day**",
+          "name": "auto_name__10"
+        },
+        {
+          "_id": "page.meals-and-snacks--fieldset--fileupload.auto_name__11",
+          "_type": "fileupload",
+          "label": "**Include receipt**",
+          "name": "auto_name__11",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__4",
+      "repeatable": true,
+      "repeatableAdd": "Add another expense",
+      "repeatableDelete": "Remove expense",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Meals and snacks",
+  "show": {
+    "identifier": "meals_snacks",
+    "operator": "defined"
+  },
+  "url": "meals-and-snacks"
+}

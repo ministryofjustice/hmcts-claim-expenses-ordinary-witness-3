@@ -1,0 +1,74 @@
+{
+  "_id": "page.employer-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.employer-details--text.auto_name__22",
+      "_type": "text",
+      "label": "**Occupation**",
+      "name": "auto_name__22"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__21",
+      "_type": "text",
+      "label": "**Employer**",
+      "name": "auto_name__21"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.employer-details--content",
+      "_type": "content",
+      "html": "### What is your employer's address?"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__23",
+      "_type": "text",
+      "label": "Building name or number",
+      "name": "auto_name__23"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__24",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__24"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__25",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__25"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__26",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__26"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__27",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__27"
+    },
+    {
+      "_id": "page.employer-details--number.auto_name__28",
+      "_type": "number",
+      "label": "Employer's phone",
+      "name": "auto_name__28"
+    },
+    {
+      "_id": "page.employer-details--text.auto_name__29",
+      "_type": "text",
+      "label": "Pay/work reference",
+      "name": "auto_name__29"
+    }
+  ],
+  "heading": "Employer details",
+  "url": "employer-details"
+}

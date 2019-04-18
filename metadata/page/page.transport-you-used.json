@@ -4,8 +4,48 @@
   "components": [
     {
       "_id": "page.transport-you-used--checkboxes",
-      "_type": "checkboxes"
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "hint": "For example, bus, train, coach or tram",
+          "label": "Public transport",
+          "name": "public_transport"
+        },
+        {
+          "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "hint": "For example, your own car, motorbike or bicycle",
+          "label": "My own transport",
+          "name": "my_own_transport"
+        },
+        {
+          "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__4--textarea.auto_name__2",
+            "_type": "textarea",
+            "label": "Taxi or hire car expenses will only be paid in certain situations. Say what type of transport you used and why.",
+            "name": "taxi_hire_car_reasons"
+          },
+          "hint": "For example, taxi or hire car",
+          "label": "Other",
+          "name": "other_transport"
+        }
+      ],
+      "legend": "How did you travel?"
     }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "travel_costs",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.ticket-cost-per-day",
+    "page.miles-per-day",
+    "page.type-of-transport-used"
   ],
   "url": "transport-you-used"
 }

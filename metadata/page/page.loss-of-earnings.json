@@ -1,0 +1,35 @@
+{
+  "_id": "page.loss-of-earnings",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.loss-of-earnings--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.loss-of-earnings--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "label": "Loss of earnings",
+          "name": "auto_name__14"
+        },
+        {
+          "_id": "page.loss-of-earnings--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Loss of time - for example, you had to hire a childminder",
+          "name": "auto_name__15"
+        }
+      ]
+    }
+  ],
+  "enableSteps": true,
+  "heading": "What type of financial loss have you had?",
+  "show": {
+    "identifier": "financial_loss",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.loss-of-earnings-expenses",
+    "page.loss-of-time"
+  ],
+  "url": "financial-loss-type"
+}

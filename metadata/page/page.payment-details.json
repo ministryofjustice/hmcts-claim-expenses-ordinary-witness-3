@@ -1,0 +1,32 @@
+{
+  "_id": "page.payment-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.payment-details--radios.auto_name__30",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.payment-details--radios.auto_name__30--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Direct to your bank account",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__30--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Cheque",
+          "value": "auto_value__2"
+        }
+      ],
+      "name": "auto_name__30"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "How would you like us to pay you?",
+  "lede": "We can pay you by direct bank transfer or cheque.",
+  "steps": [
+    "page.bank-transfer-payment"
+  ],
+  "url": "payment-details"
+}

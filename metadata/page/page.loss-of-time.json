@@ -1,0 +1,33 @@
+{
+  "_id": "page.loss-of-time",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.loss-of-time--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.loss-of-time--fieldset--number.auto_name__19",
+          "_type": "number",
+          "label": "**Cost for loss of time**",
+          "name": "auto_name__19"
+        },
+        {
+          "_id": "page.loss-of-time--fieldset--fileupload.auto_name__20",
+          "_type": "fileupload",
+          "label": "**Include receipt**",
+          "name": "auto_name__20",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__6",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "What costs have you had because of loss of time?",
+  "lede": "For example, money you had to be for a childminder.",
+  "url": "loss-of-time"
+}

@@ -1,0 +1,43 @@
+{
+  "_id": "page.ticket-cost-per-day",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.ticket-cost-per-day--number.auto_name__3",
+      "_type": "number",
+      "label": "**Ticket cost per day**",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.ticket-cost-per-day--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.ticket-cost-per-day--fieldset--fileupload.auto_name__4",
+          "_type": "fileupload",
+          "label": "**Include receipts**",
+          "name": "auto_name__4",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "model": "model_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add another receipt",
+      "repeatableDelete": "Remove receipt",
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "How much was your return ticket per day?",
+  "lede": "We'll be able to process your claim quicker if you include ticket receipts.",
+  "show": {
+    "identifier": "public_transport",
+    "operator": "defined"
+  },
+  "url": "ticket-cost-per-day"
+}

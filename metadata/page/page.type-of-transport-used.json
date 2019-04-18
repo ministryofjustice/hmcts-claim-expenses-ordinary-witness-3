@@ -1,0 +1,35 @@
+{
+  "_id": "page.type-of-transport-used",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.type-of-transport-used--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.type-of-transport-used--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "label": "Taxi",
+          "name": "taxi"
+        },
+        {
+          "_id": "page.type-of-transport-used--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "Hire car",
+          "name": "hire_car"
+        }
+      ],
+      "legend": "What type of transport did you use?"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "other_transport",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.taxi-fare",
+    "page.hire-car-cost"
+  ],
+  "url": "type-of-transport-used"
+}

@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel\r\n* accommodation\r\n* meals and snacks\r\n* other expenses - for example, loss of earnings or childcare costs",
+  "body": "Use this service to make a claim for expenses as a defence witness.\r\n\r\nYou can make a claim for:\r\n\r\n* travel\r\n* meals and snacks\r\n* accommodation\r\n* other expenses - for example, loss of earnings or childcare costs",
   "components": [
     {
       "_id": "page.start--content",
@@ -21,7 +21,9 @@
     "page.your-details",
     "page.how-can-we-contact-you",
     "page.case-details",
-    "page.what-are-you-making-a-claim-for"
+    "page.days-at-court",
+    "page.what-are-you-making-a-claim-for",
+    "page.payment-details"
   ],
   "url": "/"
 }
