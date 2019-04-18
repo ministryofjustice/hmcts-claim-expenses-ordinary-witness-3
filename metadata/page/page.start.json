@@ -23,7 +23,9 @@
     "page.case-details",
     "page.days-at-court",
     "page.what-are-you-making-a-claim-for",
-    "page.payment-details"
+    "page.payment-details",
+    "page.check-you-answers",
+    "page.thanks-for-submitting-expenses"
   ],
   "url": "/"
 }

@@ -1,0 +1,7 @@
+{
+  "_id": "page.thanks-for-submitting-expenses",
+  "_type": "page.confirmation",
+  "heading": "Thanks for submitting your expenses",
+  "lede": "Your expenses claim will be sent directly through to the selected court.",
+  "url": "thanks-for-submitting-expenses"
+}
