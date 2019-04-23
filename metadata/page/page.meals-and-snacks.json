@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.meals-and-snacks--number.auto_name__10",
       "_type": "number",
-      "label": "Total cost for meals and snacks",
+      "label": "**Total cost**",
       "name": "auto_name__10"
     },
     {

@@ -15,7 +15,7 @@
         {
           "_id": "page.loss-of-earnings--checkboxes--checkbox.auto_name__15",
           "_type": "checkbox",
-          "label": "Loss of time - for example, you had to hire a childminder",
+          "label": "Other costs - for example, you had to pay for a childminder while at court",
           "name": "auto_name__15"
         }
       ]

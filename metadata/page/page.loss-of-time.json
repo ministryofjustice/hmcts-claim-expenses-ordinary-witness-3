@@ -9,7 +9,7 @@
         {
           "_id": "page.loss-of-time--fieldset--number.auto_name__19",
           "_type": "number",
-          "label": "**Cost for loss of time**",
+          "label": "**Total cost**",
           "name": "auto_name__19"
         },
         {
@@ -24,10 +24,12 @@
       ],
       "model": "model_auto__6",
       "repeatable": true,
+      "repeatableAdd": "Add another receipt",
+      "repeatableDelete": "Remove cost",
       "repeatableMaximum": 10
     }
   ],
   "heading": "Have you had any other costs?",
-  "lede": "For example, money you had to be for a childminder.",
+  "lede": "For example, if you had to pay for a childminder while you were at court.",
   "url": "loss-of-time"
 }

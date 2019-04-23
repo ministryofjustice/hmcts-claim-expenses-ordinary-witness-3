@@ -9,8 +9,8 @@
       "$field": true,
       "_id": "page.ticket-cost-per-day--number.auto_name__3",
       "_type": "number",
-      "hint": "For example, £12.50",
-      "label": "**Ticket cost per day**",
+      "hint": "For example, £24.50",
+      "label": "**Total cost for travel**",
       "name": "auto_name__3"
     },
     {
@@ -34,7 +34,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "How much was your return ticket per day?",
+  "heading": "What was the total cost for travel?",
   "lede": "We'll be able to process your claim quicker if you include ticket receipts.",
   "show": {
     "identifier": "public_transport",

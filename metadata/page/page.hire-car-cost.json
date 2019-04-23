@@ -10,7 +10,7 @@
           "_id": "page.hire-car-cost--fieldset--number.auto_name__8",
           "_type": "number",
           "hint": "For example, £55.50",
-          "label": "**Cost per day**",
+          "label": "**Total cost**",
           "name": "auto_name__8"
         },
         {

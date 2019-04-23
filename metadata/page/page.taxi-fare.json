@@ -9,8 +9,8 @@
         {
           "_id": "page.taxi-fare--fieldset--number.auto_name__6",
           "_type": "number",
-          "hint": "For example, £22.50",
-          "label": "**Cost per day**",
+          "hint": "For example, £24.50",
+          "label": "**Total cost**",
           "name": "auto_name__6"
         },
         {
@@ -30,7 +30,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "How much was your taxi fare?",
+  "heading": "Total cost for taxi fares?",
   "show": {
     "identifier": "taxi",
     "operator": "defined"

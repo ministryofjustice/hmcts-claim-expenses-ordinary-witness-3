@@ -6,7 +6,7 @@
       "_id": "page.miles-per-day--number.auto_name__5",
       "_type": "number",
       "hint": "Enter a number to the nearest mile",
-      "label": "How many miles did you travel per day using your own transport?",
+      "label": "How many miles did you travel per day?",
       "name": "auto_name__5",
       "show": {
         "identifier": "my_own_transport",

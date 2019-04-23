@@ -9,8 +9,8 @@
         {
           "_id": "page.accommodation-costs--fieldset--number.auto_name__12",
           "_type": "number",
-          "hint": "For example, £30.50",
-          "label": "**Cost per night**",
+          "hint": "For example, £60.00",
+          "label": "**Total cost**",
           "name": "auto_name__12"
         },
         {
@@ -30,7 +30,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Accommodation",
+  "heading": "Accommodation cost",
   "show": {
     "identifier": "accommodation",
     "operator": "defined"
