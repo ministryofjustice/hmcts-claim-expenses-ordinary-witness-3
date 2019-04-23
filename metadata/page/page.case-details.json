@@ -19,7 +19,10 @@
       "_id": "page.case-details--number.auto_name__2",
       "_type": "number",
       "label": "Case number",
-      "name": "case_number"
+      "name": "case_number",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "Case details",

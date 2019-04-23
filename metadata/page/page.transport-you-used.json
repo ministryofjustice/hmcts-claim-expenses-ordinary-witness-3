@@ -16,6 +16,12 @@
         {
           "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__3",
           "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.transport-you-used--checkboxes--checkbox.auto_name__3--textarea.auto_name__35",
+            "_type": "textarea",
+            "label": "If you can provide a good reason for using private transport you could be paid a higher rate.",
+            "name": "auto_name__35"
+          },
           "hint": "For example, your own car, motorbike or bicycle",
           "label": "My own transport",
           "name": "my_own_transport"

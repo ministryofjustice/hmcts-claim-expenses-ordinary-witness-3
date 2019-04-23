@@ -3,15 +3,19 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.meals-and-snacks--number.auto_name__10",
+      "_type": "number",
+      "label": "Total cost for meals and snacks",
+      "name": "auto_name__10"
+    },
+    {
       "_id": "page.meals-and-snacks--fieldset",
       "_type": "fieldset",
       "components": [
-        {
-          "_id": "page.meals-and-snacks--fieldset--number.auto_name__10",
-          "_type": "number",
-          "label": "**Cost per day**",
-          "name": "auto_name__10"
-        },
         {
           "_id": "page.meals-and-snacks--fieldset--fileupload.auto_name__11",
           "_type": "fileupload",
@@ -24,8 +28,8 @@
       ],
       "model": "model_auto__4",
       "repeatable": true,
-      "repeatableAdd": "Add another expense",
-      "repeatableDelete": "Remove expense",
+      "repeatableAdd": "Add another receipt",
+      "repeatableDelete": "Remove receipt",
       "repeatableMaximum": 10
     }
   ],

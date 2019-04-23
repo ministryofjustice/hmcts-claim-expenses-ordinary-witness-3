@@ -9,6 +9,7 @@
       "$field": true,
       "_id": "page.ticket-cost-per-day--number.auto_name__3",
       "_type": "number",
+      "hint": "For example, £12.50",
       "label": "**Ticket cost per day**",
       "name": "auto_name__3"
     },
