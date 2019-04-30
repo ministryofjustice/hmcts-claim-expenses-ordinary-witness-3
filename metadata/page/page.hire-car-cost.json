@@ -23,7 +23,7 @@
           }
         }
       ],
-      "model": "model_auto__3",
+      "namespace": "namespace_auto__3",
       "repeatable": true,
       "repeatableAdd": "Add another expense",
       "repeatableDelete": "Remove expense",

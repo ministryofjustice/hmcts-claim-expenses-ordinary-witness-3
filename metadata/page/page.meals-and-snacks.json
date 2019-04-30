@@ -26,7 +26,7 @@
           }
         }
       ],
-      "model": "model_auto__4",
+      "namespace": "namespace_auto__4",
       "repeatable": true,
       "repeatableAdd": "Add another receipt",
       "repeatableDelete": "Remove receipt",

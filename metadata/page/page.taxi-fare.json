@@ -23,7 +23,7 @@
           }
         }
       ],
-      "model": "model_auto__2",
+      "namespace": "namespace_auto__2",
       "repeatable": true,
       "repeatableAdd": "Add another fare",
       "repeatableDelete": "Remove fare",
